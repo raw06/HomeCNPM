@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eva de Eva</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;552&display=swap');
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-info">
+            <a href="#" class="header-info-add">Hệ thống <span>36</span> Store - Mua hàng Online (08h30-17h30 từ
+                T2-T7)
+                <span>1800 1732</span>- CSKH (08h30-17h30 từ T2-T7) <span>1800 1731</span></a>
+            <a href="#" class="header-info-csbh">Chính sách bán hàng</a>
+        </div>
+        <div class="header-nav">
+            <div class="header-logo">
+                <a href="#">
+                    <img src="https://file.hstatic.net/1000358207/file/logo_eva.svg" class="header-logo-img">
+                </a>
+            </div>
+
+            <div class="header-nav-main">
+                <ul class="header-nav-content">
+                    <li class="header-nav-content-item">
+                        <a href="" class="header-nav-content-item-link" title="Hàng mới về">HÀNG MỚI VỀ</a>
+                    </li>
+                    <li class="header-nav-content-item">
+                        <a href="" class="header-nav-content-item-link" title="Hàng bán chạy">HÀNG BÁN CHẠY</a>
+                    </li>
+                    <li class="header-nav-content-item hasItemMenu">
+                        <a href="" class="header-nav-content-item-link" title="Sản phẩm">SẢN PHẨM</a>
+                        <div class="header-sub-nav">
+                            <div class="sub-nav-list">
+                                <ul>
+                                    <li class="sub-nav-item">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu3_1.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">Đầm</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-nav-item ">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu3_2.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">Áo</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-nav-item ">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu3_3.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">Áo sơ mi</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-nav-item ">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu3_4.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">Áo kiểu</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-nav-item ">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu3_5.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">Jumpsuit</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-nav-item ">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu3_6.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">Chân váy</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-nav-item ">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu3_7.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">Quần</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-nav-item ">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu3_8.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">Tất cả sản phẩm</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="header-nav-content-item hasItemMenu">
+                        <a href="" class="header-nav-content-item-link" title="Chọn theo dịp">CHỌN THEO DỊP</a>
+                        <div class="header-sub-nav">
+                            <div class="sub-nav-list">
+                                <ul>
+                                    <li class="sub-nav-item">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu4_1.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">Đồ công sở</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-nav-item ">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu4_2.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">Đồ dạo phố</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-nav-item ">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu4_3.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">Đồ du lịch</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-nav-item ">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu4_4.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">Đồ dự tiệc</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="header-nav-content-item">
+                        <a href="" class="header-nav-content-item-link" title="Ưu đãi">ƯU ĐÃI</a>
+                    </li>
+                    <li class="header-nav-content-item hasItemMenu">
+                        <a href="" class="header-nav-content-item-link" title="Bộ sưu tập">BỘ SƯU TẬP</a>
+                        <div class="header-sub-nav">
+                            <div class="sub-nav-list">
+                                <ul>
+                                    <li class="sub-nav-item">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu6_1.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">BACK TO RUSTICITY</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-nav-item ">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu6_2.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">BRILLIANT</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-nav-item ">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu6_3.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">THE SYMPHONY OF ELITE</span>
+                                        </a>
+                                    </li>
+                                    <li class="sub-nav-item ">
+                                        <a href="">
+                                            <img src="https://theme.hstatic.net/200000000133/1000569834/14/img_megamenu6_4.jpg?v=5127"
+                                                class="sub-nav-item-img">
+                                            <span class="sub-nav-info">HAVE A CUP OF TRAVEL</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </li>
+                    <li class="header-nav-content-item">
+                        <a href="" class="header-nav-content-item-link" title="Phụ kiện">PHỤ KIỆN</a>
+                    </li>
+                    <li class="header-nav-content-item">
+                        <a href="" class="header-nav-content-item-link " style="color: #ff0000;" title="LADY ME">LADY
+                            ME</a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="header-nav-right">
+                <form action="search" class="header-form">
+                    <input type="text" class="header-search" placeholder="Tìm sản phẩm...">
+                    <input type="submit" class="header-search-btn" value>
+                </form>
+                <div class="header-user">
+                    <a href="#" title="Tài khoản">
+                        <img src="https://theme.hstatic.net/200000000133/1000569834/14/accountIcon.png?v=5127"
+                            title="Tài khoản" class="header-user-img">
+                    </a>
+                </div>
+                <div class="header-cart">
+                    <a href="#" title="Giỏ hàng">
+                        <img src="https://theme.hstatic.net/200000000133/1000569834/14/bagIcon2.png?v=5127"
+                            title="Giỏ hàng" class="header-cart-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main-body">
+        <div class="img-slider">
+            <a href="">
+                <div class="slide active">
+                    <img src="https://theme.hstatic.net/200000000133/1000569834/14/slideshow_4.jpg?v=5142" alt="">
+                </div>
+            </a>
+            <a href="">
+                <div class="slide">
+                    <img src="https://theme.hstatic.net/200000000133/1000569834/14/slideshow_2.jpg?v=5142" alt="">
+                </div>
+            </a>
+            <a href="">
+                <div class="slide">
+                    <img src="https://theme.hstatic.net/200000000133/1000569834/14/slideshow_1.jpg?v=5142" alt="">
+                </div>
+            </a>
+        </div>
+        <div class="main-product container-xl">
+            <div class="row  ">
+                <div class="col-4 main-product-content main-product-down animateBanner">
+                    <a href="">
+                        <img src="https://theme.hstatic.net/200000000133/1000569834/14/home3banner_1.jpg?v=5150"
+                            class="main-product-img">
+                    </a>
+                </div>
+                <div class="col-4 main-product-content animateBanner">
+                    <a href="">
+                        <img src="https://theme.hstatic.net/200000000133/1000569834/14/home3banner_2.jpg?v=5150"
+                            class="main-product-img">
+                    </a>
+                </div>
+                <div class="col-4 main-product-content main-product-down animateBanner">
+                    <a href="">
+                        <img src="https://theme.hstatic.net/200000000133/1000569834/14/home3banner_3.jpg?v=5150"
+                            class="main-product-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="main-new-product container-xl">
+            <div class="main-new-product-title">
+                <h2 class="product-title">
+                    <a href="" title="SẢN PHẨM MỚI NHẤT">
+                        SẢN PHẨM MỚI NHẤT
+                    </a>
+                    <p class="product-view-more">
+                        <a href="" class="Xem tất cả">
+                            Xem tất cả
+                        </a>
+                    </p>
+                </h2>
+            </div>
+            <div class="main-new-product-slide">
+                <div class="new-product-slide-item ">
+                    <a href="">
+                        <div class="new-product-img">
+                            <img src="https://product.hstatic.net/200000000133/product/thuha6313_7e0a350f2c7e4fffa369d57e51f0311f_grande.jpg"
+                                class="img-change">
+                            <img src="https://product.hstatic.net/200000000133/product/thuha6331_13673721ad71435d8b2e1fa448a4ea42_grande.jpg"
+                                alt="">
+                            <div class="new-product-lable-tag">
+                                <img src="https://file.hstatic.net/200000000133/file/1_113da73eef75425786591a547aeda483.png"
+                                    alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <div class="new-product-content">
+                        <div class="new-product-content-title">
+                            <a href="">
+                                Quần dài, Ống đứng 21AQDE059D
+                            </a>
+                        </div>
+                        <span class="new-product-content-title-price">999.000đ</span>
+                    </div>
+                </div>
+                <div class="new-product-slide-item ">
+                    <a href="">
+                        <div class="new-product-img">
+                            <img src="https://product.hstatic.net/200000000133/product/thuha6271_a25934fb04574f77ac21f4b7afe0584d_grande.jpg"
+                                class="img-change">
+                            <img src="https://product.hstatic.net/200000000133/product/thuha6295_6c7bec06e4594bf6ad4e7339367734a5_grande.jpg"
+                                alt="">
+                            <div class="new-product-lable-tag">
+                                <img src="https://file.hstatic.net/200000000133/file/1_113da73eef75425786591a547aeda483.png"
+                                    alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <div class="new-product-content">
+                        <div class="new-product-content-title">
+                            <a href="">
+                                Blazer 21ABLE009N
+                            </a>
+                        </div>
+                        <span class="new-product-content-title-price">1.899.000đ</span>
+                    </div>
+                </div>
+                <div class="new-product-slide-item ">
+                    <a href="">
+                        <div class="new-product-img">
+                            <img src="https://product.hstatic.net/200000000133/product/21asme100f_21acve126f_9e3fb3202c2e409dbd766d686bcfe61a_grande.jpg"
+                                class="img-change">
+                            <img src="https://product.hstatic.net/200000000133/product/thuha5963_167ab933ea8b4ce8baf434b33db3b0b2_grande.jpg"
+                                alt="">
+                            <div class="new-product-lable-tag">
+                                <img src="https://file.hstatic.net/200000000133/file/1_113da73eef75425786591a547aeda483.png"
+                                    alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <div class="new-product-content">
+                        <div class="new-product-content-title">
+                            <a href="">
+                                Sơ mi tay dài, dáng sơ vin 21AFME100F
+                            </a>
+                        </div>
+                        <span class="new-product-content-title-price">999.000đ</span>
+                    </div>
+                </div>
+                <div class="new-product-slide-item ">
+                    <a href="">
+                        <div class="new-product-img">
+                            <img src="https://product.hstatic.net/200000000133/product/21able030b_21acve073b_fae761ebe92c460c9c989512ab9a3dda_grande.jpg"
+                                class="img-change">
+                            <img src="https://product.hstatic.net/200000000133/product/thuha6520_07be62511e1c4899b4f5e08462a43a7f_grande.jpg"
+                                alt="">
+                            <div class="new-product-lable-tag">
+                                <img src="https://file.hstatic.net/200000000133/file/1_113da73eef75425786591a547aeda483.png"
+                                    alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <div class="new-product-content">
+                        <div class="new-product-content-title">
+                            <a href="">
+
+                                Chân váy Midi, Xếp ly 21ACVE126F
+
+                            </a>
+                        </div>
+                        <span class="new-product-content-title-price">999.000đ</span>
+                    </div>
+                </div>
+                <div class="new-product-slide-item ">
+                    <a href="">
+                        <div class="new-product-img">
+                            <img src="https://product.hstatic.net/200000000133/product/thuha7103_d0d7b7bbc5ea4f148b3e0b9eeda864b8_grande.jpg"
+                                class="img-change">
+                            <img src="https://product.hstatic.net/200000000133/product/thuha7128_f2d27802c28540e1b3c5c08d02f2d3a3_grande.jpg"
+                                alt="">
+                            <div class="new-product-lable-tag">
+                                <img src="https://file.hstatic.net/200000000133/file/1_113da73eef75425786591a547aeda483.png"
+                                    alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <div class="new-product-content">
+                        <div class="new-product-content-title">
+                            <a href="">
+                                Đầm tay lỡ, dáng thắt eo 21ADKE121C
+                            </a>
+                        </div>
+                        <span class="new-product-content-title-price">1.999.000đ</span>
+                    </div>
+                </div>
+                <div class="new-product-slide-item ">
+                    <a href="">
+                        <div class="new-product-img">
+                            <img src="https://product.hstatic.net/200000000133/product/21aawe012t_0afdcd8627204962af78d06b7c6ffe46_grande.jpg"
+                                class="img-change">
+                            <img src="https://product.hstatic.net/200000000133/product/thuha6421_40033a18bcec45ab929d254bc7d1d137_grande.jpg"
+                                alt="">
+                            <div class="new-product-lable-tag">
+                                <img src="https://file.hstatic.net/200000000133/file/1_113da73eef75425786591a547aeda483.png"
+                                    alt="">
+                            </div>
+                        </div>
+                    </a>
+                    <div class="new-product-content">
+                        <div class="new-product-content-title">
+                            <a href="">
+                                Áo hai dây 21AAWE012T
+                            </a>
+                        </div>
+                        <span class="new-product-content-title-price">499.000đ</span>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="intro-elite-product">
+            <div class="intro-elite-product-img">
+                <a href="" title="THE SYMPHONY OF ELITE">
+                    <img src="https://theme.hstatic.net/200000000133/1000569834/14/home_aboutus.jpg?v=5160"
+                        class="new-product-img">
+                </a>
+            </div>
+            <div class="intro-elite-product-about">
+                <div class="intro-elite-product-title">
+                    <a href="">
+                        <h2>THE SYMPHONY OF ELITE VOL 2</h2>
+                    </a>
+                </div>
+                <div class="intro-elite-product-content">
+                    <p>THE SYMPHONY OF ELITE VOL 2 Tiếp nối bản hòa tấu của sự tinh tế giữa tháng 10, Vol.2 sẽ là mảnh
+                        ghép hoàn chỉnh của BST The Symphony of Elite tái hiện qua những gam màu nâu cháy đỏ. Nếu như
+                        Vol.1 là sự điểm xuyết của hoạ tiết Paisley nhằm tôn lên tính thanh lịch, tinh tế thì Vol.2 hoạ
+                        tiết Paisley được mở rộng, tràn ngập trên bề mặt vải, kết hợp màu sắc nổi bật và form dáng thời
+                        thượng. Tất cả tạo nên một tổng hoà sang trọng và cuốn hút. BST Vol.2 hứa hẹn sẽ đem đến cho
+                        nàng một “bản phối” tinh tế, là điểm nhấn không thể thiếu trong tủ đồ của nàng dịp lễ hội cuối
+                        năm.</p>
+                </div>
+                <div class="intro-elite-product-learn-more">
+                    <a href="">
+                        <p class="intro-elite-product-learn-more-content">Tìm hiểu thêm</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="main-elite-product">
+            <div class="main-elite-product-title">
+                <h2 class="elite-product-title">
+                    <a href="" title="THE SYMPHONY OF ELITE">
+                        THE SYMPHONY OF ELITE
+                    </a>
+                    <p class="elite-product-view-more">
+                        <a href="" class="Xem tất cả">
+                            Xem tất cả
+                        </a>
+                    </p>
+                </h2>
+            </div>
+            <div class="main-elite-product-show container-xl">
+                <div class="main-elite-product-show-list row">
+                    <div class="main-elite-product-show-item col-3">
+                        <a href="">
+                            <div class="elite-product-img">
+                                <img src="https://product.hstatic.net/200000000133/product/jim09928_ebce230967ea4c11b435b3b1db2dabad_grande.jpg"
+                                    class="img-change">
+                                <img
+                                    src="https://product.hstatic.net/200000000133/product/jim09935_2caf96d05a924bf2976e057a7e411d40_grande.jpg">
+                                <div class="elite-product-lable-tag">
+                                    <img src="https://file.hstatic.net/200000000133/file/labels-final_b1d9901b63944df28810efb035e03fcb.png"
+                                        alt="">
+                                </div>
+                            </div>
+                        </a>
+                        <div class="elite-product-content">
+                            <div class="elite-product-content-title">
+                                <a href="">
+                                    Quần trong bộ Vest-Quần 21AQQE003N
+                                </a>
+                            </div>
+                            <span class="elite-product-content-title-price">999.000đ</span>
+                        </div>
+                    </div>
+                    <div class="main-elite-product-show-item col-3">
+                        <a href="">
+                            <div class="elite-product-img">
+                                <img src="https://product.hstatic.net/200000000133/product/knn00001-1_copy_cf9a570463af42e38f6b397cfc1078d1_grande.jpg"
+                                    class="img-change">
+                                <img src="https://product.hstatic.net/200000000133/product/knn00016-1_copy_6bf9386d9db1448690f8817df37c4974_grande.jpg"
+                                    alt="">
+                                <div class="elite-product-lable-tag">
+                                    <img src="https://file.hstatic.net/200000000133/file/labels-final_b1d9901b63944df28810efb035e03fcb.png"
+                                        alt="">
+                                </div>
+                            </div>
+                        </a>
+                        <div class="elite-product-content">
+                            <div class="elite-product-content-title">
+                                <a href="">
+                                    Quần trong bộ Vest-Quần 21AQQE014T2
+                                </a>
+                            </div>
+                            <span class="elite-product-content-title-price">1.499.000đ</span>
+                        </div>
+                    </div>
+                    <div class="main-elite-product-show-item col-3">
+                        <a href="">
+                            <div class="elite-product-img">
+                                <img src="https://product.hstatic.net/200000000133/product/knn08816-3_copy_40bf4cafc6654700bb7bedbdf494a462_grande.jpg"
+                                    class="img-change">
+                                <img
+                                    src="https://product.hstatic.net/200000000133/product/knn08789-1_copy_bfaf803ca0c447bab84cb93f9e3cb03e_grande.jpg">
+                                <div class="elite-product-lable-tag">
+                                    <img src="https://file.hstatic.net/200000000133/file/labels-final_b1d9901b63944df28810efb035e03fcb.png"
+                                        alt="">
+                                </div>
+                            </div>
+                        </a>
+                        <div class="elite-product-content">
+                            <div class="elite-product-content-title">
+                                <a href="">
+                                    Áo trong bộ Vest-Quần 21AQAE002B
+                                </a>
+                            </div>
+                            <span class="elite-product-content-title-price">2.199.000đ</span>
+                        </div>
+                    </div>
+                    <div class="main-elite-product-show-item col-3">
+                        <a href="">
+                            <div class="elite-product-img">
+                                <img src="https://product.hstatic.net/200000000133/product/jim09935_2caf96d05a924bf2976e057a7e411d40_grande.jpg"
+                                    class="img-change">
+                                <img
+                                    src="https://product.hstatic.net/200000000133/product/jim09928_ebce230967ea4c11b435b3b1db2dabad_grande.jpg">
+                                <div class="elite-product-lable-tag">
+                                    <img src="https://file.hstatic.net/200000000133/file/labels-final_b1d9901b63944df28810efb035e03fcb.png"
+                                        alt="">
+                                </div>
+                            </div>
+                        </a>
+                        <div class="elite-product-content">
+                            <div class="elite-product-content-title">
+                                <a href="">
+                                    Áo trong bộ Vest-Quần 21AQQE003N
+                                </a>
+                            </div>
+                            <span class="elite-product-content-title-price">1.899.000đ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="background-fashion">
+        </div>
+        <div class="news">
+            <div class="news-content">
+                <h2 class="new-content-title">
+                    <a href="" title="THE SYMPHONY OF ELITE">
+                        TIN TỨC EVA DE EVA
+                    </a>
+                    <p class="new-content-view-more">
+                        <a href="" class="Xem tất cả">
+                            Xem tất cả
+                        </a>
+                    </p>
+                </h2>
+            </div>
+            <div class="container new-about">
+                <div class="news-about-1 col-6 ">
+                    <div class="new-about-img banner-effect">
+                        <a href="">
+                            <img
+                                src="https://file.hstatic.net/200000000133/article/2.3_083fc647db40450dbc44b0593395b026_grande.png">
+                        </a>
+                    </div>
+                    <div class="new-about-content ">
+                        <div class="new-about-content-title">
+                            <a href="">THE SYMPHONY OF ELITE - vol 1</a>
+                        </div>
+                        <div class="new-about-content-des">
+                            <p>Được lấy cảm hứng từ họa tiết Paisley độc đáo và giai điệu ngọt ngào của mùa thu tái hiện
+                                lên
+                                bởi gam màu nâu vàng ấm nóng và những làn gió se lạnh khiến con người ta ngây ngất, chạm
+                                đến
+                                những cung bậc cảm xúc lắng đọng và...</p>
+                        </div>
+                        <a href="" class="new-about-btn">
+                            Xem thêm >>
+                        </a>
+                    </div>
+                </div>
+                <div class="news-about-1 col-6 ">
+                    <div class="new-about-img banner-effect">
+                        <a href="">
+                            <img
+                                src="https://file.hstatic.net/200000000133/article/bia_2.3_4e67e19247114750a6d55fdc615d8f38_grande.jpg">
+                        </a>
+                    </div>
+                    <div class="new-about-content ">
+                        <div class="new-about-content-title">
+                            <a href="">Back to Rusticity - Summer 2021 Campaign</a>
+                        </div>
+                        <div class="new-about-content-des">
+                            <p>Giữa vô vàn những hào nhoáng, những tất bật và căng thẳng, ta tìm về những giá trị bình
+                                dị, để tâm hồn ta trầm lắng lại, để thư thái và yêu chiều bản thân hơn.BST tiếp nối của
+                                tháng 7 ”Back to Rusticity – Trở về những giá trị...</p>
+                        </div>
+                        <a href="" class="new-about-btn">
+                            Xem thêm >>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="feedback">
+            <div class="feedback-content">
+                <div class="feedback-title">
+                    <h2 class="heading-title">SAO VIỆT NÓI GÌ VỀ EVA DE EVA</h2>
+                </div>
+                <div class="feedback-slider">
+                    <div class="feedback-item">
+                        <div class="feedback-comment">
+                            <p>"Các thiết kế của EDE luôn luôn thay đổi và mang đến những bất ngờ!"</p>
+                        </div>
+                        <div class="feedback-actor">
+                            <div class="feedback-actor-img">
+                                <img
+                                    src="https://theme.hstatic.net/200000000133/1000569834/14/avt_homeCustomer_1.jpg?v=5160">
+                            </div>
+                            <div class="feedback-actor-info">
+                                <div class="feedback-actor-info-name">
+                                    <p>Hoa Hậu Hương Giang</p>
+                                </div>
+                                <div class="feedback-actor-info-job">
+                                    <p>Ca sĩ/ Người mẫu</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feedback-item">
+                        <div class="feedback-comment">
+                            <p>
+                                "Châu nghĩ một cô gái 21 tuổi với phong cách cá tính như mình có thể tự tin diện những
+                                trang phục của EDE thì ai cũng có thể!"
+                            </p>
+                        </div>
+                        <div class="feedback-actor">
+                            <div class="feedback-actor-img">
+                                <img
+                                    src="https://theme.hstatic.net/200000000133/1000569834/14/avt_homeCustomer_3.jpg?v=5160">
+                            </div>
+                            <div class="feedback-actor-info">
+                                <div class="feedback-actor-info-name">
+                                    <p>Châu Bùi</p>
+                                </div>
+                                <div class="feedback-actor-info-job">
+                                    <p>Hotgirl/ Người mẫu ảnh</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feedback-item">
+                        <div class="feedback-comment">
+                            <p>
+                                “Vô cùng ngạc nhiên vì những bước chuyển mình trong thiết kế của EDE,
+                                ngày càng trẻ trung, bắt mắt! Lý Nhã Kỳ cảm thấy rất tự tin khi khoác lên mình trang
+                                phục EDE!"
+                            </p>
+                        </div>
+                        <div class="feedback-actor">
+                            <div class="feedback-actor-img">
+                                <img
+                                    src="https://theme.hstatic.net/200000000133/1000569834/14/avt_homeCustomer_2.jpg?v=5160">
+                            </div>
+                            <div class="feedback-actor-info">
+                                <div class="feedback-actor-info-name">
+                                    <p>Lý Nhã Kỳ</p>
+                                </div>
+                                <div class="feedback-actor-info-job">
+                                    <p>Người mẫu/ Diễn viên</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="feedback-item">
+                        <div class="feedback-comment">
+                            <p>
+                                "EDE đã có bước chuyển mình rất lớn để mang lại những thiết kế thời trang hơn, trẻ trung
+                                hơn mà không kém phần nữ tính, mang đến nhiều lựa chọn hơn cho phụ nữ Việt!"
+                            </p>
+                        </div>
+                        <div class="feedback-actor">
+                            <div class="feedback-actor-img">
+                                <img
+                                    src="https://theme.hstatic.net/200000000133/1000569834/14/avt_homeCustomer_1.jpg?v=5160">
+                            </div>
+                            <div class="feedback-actor-info">
+                                <div class="feedback-actor-info-name">
+                                    <p>Nguyễn Thu Quỳnh</p>
+                                </div>
+                                <div class="feedback-actor-info-job">
+                                    <p>Diễn viên</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="findShop">
+            Tìm
+            <a href="">cửa hàng</a>
+            gần bạn nhất
+            <i class="fa fa-map-marker findShop-icon" aria-hidden="true"></i>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="about-us">
+            <div class="about">
+                <div class="about-list">
+                    <ul>
+                        <li class="about-item title">Tuyển dụng</li>
+                        <li class="about-item"><a href="">Tuyển dụng Tháng 12/2020</a></li>
+                        <li class="about-item"><a href="">Tuyển dụng tháng 07/2020</a></li>
+                        <li class="about-item"><a href="">Thông tin tuyển dụng tháng 02/2021</a></li>
+                    </ul>
+                </div>
+                <div class="about-list">
+                    <ul>
+                        <li class="about-item title">Khám phá EDE</li>
+                        <li class="about-item"><a href="">Về chúng tôi</a></li>
+                        <li class="about-item"><a href="">Câu hỏi thường gặp</a></li>
+                        <li class="about-item"><a href="">Tin tức</a></li>
+                        <li class="about-item"><a href="">Sự kiện</a></li>
+                        <li class="about-item"><a href="">Sao & Eva</a></li>
+                        <li class="about-item"><a href="">Mix & Match</a></li>
+                    </ul>
+                </div>
+                <div class="about-list">
+                    <ul>
+                        <li class="about-item title">Chính sách</li>
+                        <li class="about-item"><a href="">Chính sách thanh toán</a></li>
+                        <li class="about-item"><a href="">Chính sách vận chuyển</a></li>
+                        <li class="about-item"><a href="">Chính sách đổi trả</a></li>
+                        <li class="about-item"><a href="">Chính sách bảo mật</a></li>
+                        <li class="about-item"><a href="">Chương trình thẻ VIP</a></li>
+                        <li class="about-item"><a href="">Hướng dẫn chọn size</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="sign-up">
+                <div class="sign-up-title">
+                    <h4>ĐĂNG KÝ NHẬN TIN TỨC VÀ ƯU ĐÃI CỦA EDE</h4>
+                </div>
+                <div class="sign-up-content">
+                    <div class="sign-up-des">
+                        <p>Bằng cách đăng ký, bạn đồng ý với chính sách bảo mật của chúng tôi</p>
+                    </div>
+                    <div class="sign-up-form ">
+                        <input type="email" required id="email">
+                        <label for="email" class="input-placeholder">Nhập email của bạn</label>
+                        <button class="submit-btn" type="submit">
+                            <i class="fa fa-angle-right" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contact">
+            <a href=""><i class="fa fa-facebook " aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-instagram " aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-youtube " aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-twitter " aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-weixin" aria-hidden="true"></i></a>
+
+        </div>
+        <div class="address">
+            <div class="address-left">
+                <div class="address-title">
+                    Công ty TNHH Mỹ Phục
+                </div>
+                <div class="address-content">
+                    0104972419 - Ngày cấp: 27/10/2010 - Nơi cấp: Sở kế hoạch và đầu tư Hà Nội
+                    <br>
+                    Trụ sở chính: Phòng 208.2, Trung Tâm Thương Mại VinCom Galleriers, số 114 Mai Hắc Đế, Phường Lê Đại
+                    Hành, Quận Hai Bà Trưng, Thành phố Hà Nội
+                </div>
+            </div>
+            <div class="address-right">
+                <div class="address-copyright">
+                    @ 2021 Eva de Eva
+                </div>
+                <div class="address-tem">
+                    <a href="">
+                        <img src="https://theme.hstatic.net/200000000133/1000569834/14/logo-bct.png?v=5160" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"
+        integrity="sha512-eP8DK17a+MOcKHXC5Yrqzd8WI5WKh6F1TIk5QZ/8Lbv+8ssblcz7oGC8ZmQ/ZSAPa7ZmsCU4e/hcovqR8jfJqA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+
+</html>
